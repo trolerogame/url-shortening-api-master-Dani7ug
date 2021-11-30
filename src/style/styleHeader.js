@@ -63,36 +63,35 @@ export const Info = styled.div`
         }
     }
 `
+export const GetStarted = styled.button`
+    width: 100%;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight:500;
+    height:40px;
+    padding:10px 20px;
+    margin:0 10px;
+    border-radius:30px;
+    background:hsl(180, 66%, 49%);
+    cursor:pointer;
+    transition: opacity .1s linear;
+    font-weight: 600;
+    &:hover{
+        opacity:.7;
+    }
+`
 export const ContainHamburgerLogin = styled.div`
     display:flex;
     flex-direction: column;
     align-items: center;
     margin:20px;
-    button{
-        width: 100%;
-        border:none;
-        outline:none;
-        color:#fff;
-        font-weight:500;
-        height:40px;
-        padding:10px 20px;
-        margin:0 10px;
-        border-radius:30px;
-        background:hsl(180, 66%, 49%);
-        cursor:pointer;
-        transition: opacity .1s linear;
-        font-weight: 600;
-    }
     p{
         padding:0 10px;
         color:#fff;
         font-weight: 600;
         cursor:pointer;
     }   
-
-    button:hover{
-        opacity:.7;
-    }
     @media (min-width:762px){
         margin:0;
         button{

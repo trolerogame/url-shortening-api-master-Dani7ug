@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from './Logo.jsx'
-import {ContainHeader,ContainHamburgerLogin,InfoHeader,Info,HamburgerClose} from '../style/styleHeader'
+import {ContainHeader,ContainHamburgerLogin,InfoHeader,GetStarted,Info,HamburgerClose} from '../style/styleHeader'
 const Header = ({close,setClose}) => {
     const infoItems = ['Features','Pricing','Resources']
     return (
@@ -12,7 +12,7 @@ const Header = ({close,setClose}) => {
                 </Info>
                 <ContainHamburgerLogin>
                     <p>Login</p>
-                    <button>Sign Up</button>
+                    <GetStarted>Sign Up</GetStarted>
                 </ContainHamburgerLogin>
             </InfoHeader>
             <HamburgerClose close={close} onClick={() => setClose(!close)}>
