@@ -5,12 +5,13 @@ import Body from './components/Body'
 import Boots from './components/Boots'
 import Footer from './components/Footer'
 function App() {
-  const [close,setClose] = useState(false)
+  const [close,setClose] = useState(!!1)
+  const [shortsUrls,setShortsUrls] = useState([])
   return (
     <>
       <GlobalStyle/>
       <Header close={close} setClose={setClose}/>
-      <Body/>
+      <Body shortsUrls={shortsUrls} setShortsUrls={setShortsUrls}/>
       <Boots/>
       <Footer/>
     </>
