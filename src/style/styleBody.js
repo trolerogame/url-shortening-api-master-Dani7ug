@@ -191,6 +191,8 @@ export const LinkShort = styled.div`
         height: 40px;
         font-size:20px;
         border-radius:7px;
+        transition: background .1s linear;
+        background-color:${props => props.copied === 'true' ? 'hsl(260, 8%, 14%)' : 'hsl(180, 66%, 49%)'}
     }
     p{
         font-size:18px;

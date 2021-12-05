@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { GetStarted } from '../style/styleHeader'
 import { 
     AdvancedText,
@@ -14,6 +14,11 @@ import illustration from '../../public/illustration-working.svg'
 import advancedStatistics from '../advancedStatistics.json'
 import FormUrlShort from './FormUrlShort'
 const Body = ({shortsUrls,setShortsUrls}) => {
+    const [copied,setCopied] = useState(null)
+    const copy = (i,shortUrl) => {
+        navigator.clipboard.writeText(shortUrl)
+        setCopied(i)
+    }
     return (
         <main>
             <ContainIllustration>
@@ -29,13 +34,17 @@ const Body = ({shortsUrls,setShortsUrls}) => {
                 <FormUrlShort shortsUrls={shortsUrls} setShortsUrls={setShortsUrls}/>
                 <ContainLinksShorts>
                     {shortsUrls.map((item,i) => 
-                        <LinkShort key={i}>
+                        <LinkShort key={i} copied={copied == i && copied !== null  ? 'true' : 'false'}>
                             <div>
                                 <p>{item.url}</p>
                             </div>
                             <div>
                                 <b>{item.shortUrl}</b>
-                                <GetStarted onClick={() => navigator.clipboard.writeText(item.shortUrl)}>Copy</GetStarted>
+                                <GetStarted
+                                    onClick={() => copy(i,item.shortUrl)}
+                                >
+                                    {copied == i && copied !== null ? 'Copied!' : 'Copy'}
+                                </GetStarted>
                             </div>
                         </LinkShort>
                     )}
