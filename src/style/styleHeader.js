@@ -10,8 +10,10 @@ export const ContainHeader = styled.header`
         width:160px;
     }
     @media (min-width:762px){
-        margin:10px 70px;
         justify-content:start;
+    }
+    @media (min-width:1250px){
+        margin:10px 150px;
     }
 `
 

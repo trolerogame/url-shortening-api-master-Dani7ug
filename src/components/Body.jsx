@@ -35,7 +35,7 @@ const Body = ({shortsUrls,setShortsUrls}) => {
                             </div>
                             <div>
                                 <b>{item.shortUrl}</b>
-                                <GetStarted>Copy</GetStarted>
+                                <GetStarted onClick={() => navigator.clipboard.writeText(item.shortUrl)}>Copy</GetStarted>
                             </div>
                         </LinkShort>
                     )}

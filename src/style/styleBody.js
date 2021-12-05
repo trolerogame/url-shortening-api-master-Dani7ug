@@ -7,6 +7,28 @@ export const ContainIllustration = styled.div`
         object-fit: cover;
         margin:25px 0 40px 80px;
     }
+    @media (min-width:762px){
+        display:flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-left: 40px;
+
+        img{
+            width:500px;
+        }
+    }
+    @media (min-width:1000px){
+        margin-left:70px;
+        img{
+            width:600px;
+        }
+    }
+    @media (min-width:1250px){
+        margin-left:150px;
+        img{
+            width:700px;
+        }
+    }
 `
 
 export const TextIllustration = styled.div`
@@ -25,9 +47,32 @@ export const TextIllustration = styled.div`
         margin:10px 40px 30px 40px;
         color:hsl(257, 7%, 63%);
         font-weight: 600;
+        text-align:center;
     }
     button{
         width: 130px;
+    }
+    @media (min-width:762px){
+        width: 100%;
+        align-items: start;
+        margin:0;
+        margin-right:10px;
+        h1,p,button{
+            margin:10px 0;
+        }
+        p{
+            text-align:start;
+        }
+        h1{
+            font-size:30px;
+            text-align: start;
+            font-weight:1000;
+        }
+    }
+    @media(max-width:1030px){
+        h1{
+            font-size:50px; 
+        }
     }
 `
 
@@ -176,7 +221,6 @@ export const LinkShort = styled.div`
         justify-content:space-between;
         align-items: center;
         width: calc(100% - 80px);
-        max-width: 800px;
         height: 70px;
         padding-bottom:0;
         p::after{
@@ -199,7 +243,7 @@ export const LinkShort = styled.div`
 export const ContainLinksShorts = styled.div`
     margin:30px 0;
     @media (min-width: 762px) {
-        width: 900px;
+        width: calc(100% - 260px);
         display: flex;
         flex-direction: column;
         align-items: center;
