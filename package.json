@@ -1,10 +1,13 @@
 {
   "name": "url-shortening-api-master-dani7ug",
   "version": "0.0.0",
+  "homepage":"https://trolerogame.github.io/url-shortening-api-master-dani7ug",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^3.2.3",
