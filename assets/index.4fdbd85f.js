@@ -1,4 +1,4 @@
-import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";const w=function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const i of n)if(i.type==="childList")for(const l of i.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&s(l)}).observe(document,{childList:!0,subtree:!0});function o(n){const i={};return n.integrity&&(i.integrity=n.integrity),n.referrerpolicy&&(i.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?i.credentials="include":n.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(n){if(n.ep)return;n.ep=!0;const i=o(n);fetch(n.href,i)}};w();const v=h`
+import{W as h,R as e,s as o,C as f,r as p,a as b}from"./vendor.8fe9410d.js";const w=function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const i of n)if(i.type==="childList")for(const l of i.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&s(l)}).observe(document,{childList:!0,subtree:!0});function r(n){const i={};return n.integrity&&(i.integrity=n.integrity),n.referrerpolicy&&(i.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?i.credentials="include":n.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(n){if(n.ep)return;n.ep=!0;const i=r(n);fetch(n.href,i)}};w();const v=h`
     body{
         font-family: 'Source Sans Pro', sans-serif;
         margin:0;
@@ -6,7 +6,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
         box-sizing: border-box;
         overflow-x: hidden;
     }
-`;var u=({color:t})=>e.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:"121",height:"33"},e.createElement("path",{fill:t,d:"M16.715 7.932c-.068-.09-.306-.26-.714-.51s-.918-.51-1.53-.782-1.281-.51-2.006-.714a8.005 8.005 0 00-2.176-.306c-1.995 0-2.992.669-2.992 2.006 0 .408.107.748.323 1.02.215.272.532.516.952.731.419.215.946.414 1.58.595l1.406.393.805.219c1.156.317 2.198.663 3.128 1.037.929.374 1.717.839 2.363 1.394a5.647 5.647 0 011.496 2.023c.35.793.527 1.745.527 2.856 0 1.36-.255 2.51-.765 3.451-.51.94-1.185 1.7-2.023 2.278-.84.578-1.802.997-2.89 1.258-1.088.26-2.21.391-3.366.391a19.68 19.68 0 01-5.44-.799c-.884-.26-1.74-.572-2.567-.935A14.358 14.358 0 01.53 22.28l2.448-4.862c.09.113.385.329.884.646.498.317 1.116.635 1.853.952.736.317 1.558.6 2.465.85.906.25 1.824.374 2.754.374 1.972 0 2.958-.6 2.958-1.802 0-.453-.148-.827-.442-1.122-.295-.295-.703-.561-1.224-.799a12.455 12.455 0 00-1.504-.56l-1.702-.495-.976-.288c-1.111-.34-2.074-.708-2.89-1.105-.816-.397-1.49-.856-2.023-1.377a5.003 5.003 0 01-1.19-1.802c-.261-.68-.391-1.473-.391-2.38 0-1.27.238-2.391.714-3.366a7.266 7.266 0 011.938-2.465 8.435 8.435 0 012.839-1.513c1.076-.34 2.215-.51 3.417-.51.838 0 1.666.08 2.482.238.816.159 1.598.363 2.346.612.748.25 1.445.533 2.09.85.647.317 1.242.635 1.786.952l-2.448 4.624zM40.139 25h-5.44V14.97c0-1.156-.227-2.006-.68-2.55-.454-.544-1.077-.816-1.87-.816-.318 0-.663.074-1.037.221a4.173 4.173 0 00-1.088.646 5.827 5.827 0 00-.97 1.003 4.4 4.4 0 00-.68 1.292V25h-5.44V.18h5.44v9.962a6.786 6.786 0 012.602-2.465c1.076-.578 2.26-.867 3.553-.867 1.201 0 2.17.21 2.907.629.736.42 1.303.952 1.7 1.598.396.646.663 1.371.799 2.176.136.805.204 1.592.204 2.363V25zm12.34.34c-1.519 0-2.873-.25-4.063-.748-1.19-.499-2.193-1.173-3.01-2.023a8.54 8.54 0 01-1.852-2.958 9.97 9.97 0 01-.63-3.519c0-1.224.21-2.397.63-3.519a8.54 8.54 0 011.853-2.958c.816-.85 1.819-1.53 3.009-2.04s2.544-.765 4.063-.765c1.519 0 2.867.255 4.046.765 1.179.51 2.176 1.19 2.992 2.04a8.754 8.754 0 011.87 2.958 9.736 9.736 0 01.646 3.519 9.97 9.97 0 01-.63 3.519 8.54 8.54 0 01-1.852 2.958c-.816.85-1.82 1.524-3.01 2.023-1.19.499-2.543.748-4.062.748zM48.5 16.092c0 1.405.374 2.533 1.122 3.383.748.85 1.7 1.275 2.856 1.275a3.59 3.59 0 001.564-.34c.476-.227.89-.544 1.24-.952a4.57 4.57 0 00.834-1.479 5.632 5.632 0 00.306-1.887c0-1.405-.374-2.533-1.122-3.383-.748-.85-1.689-1.275-2.822-1.275a3.702 3.702 0 00-2.84 1.292 4.57 4.57 0 00-.832 1.479 5.632 5.632 0 00-.306 1.887zm27.776-4.284c-1.315.023-2.505.238-3.57.646-1.065.408-1.836 1.02-2.312 1.836V25h-5.44V7.15h4.998v3.604c.612-1.201 1.4-2.142 2.363-2.822.963-.68 1.989-1.031 3.077-1.054h.544c.113 0 .227.011.34.034v4.896zm14.074 12.24a21.71 21.71 0 01-2.567.884c-.963.272-1.932.408-2.907.408-.68 0-1.32-.085-1.92-.255a4.286 4.286 0 01-1.582-.816c-.453-.374-.81-.867-1.07-1.479-.262-.612-.392-1.349-.392-2.21v-9.316h-2.278V7.15h2.278V1.472h5.44V7.15h3.638v4.114h-3.638v7.446c0 .59.147 1.014.442 1.275.295.26.669.391 1.122.391.408 0 .827-.068 1.258-.204.43-.136.805-.283 1.122-.442l1.054 4.318zM92.627.18h5.44v18.462c0 1.36.578 2.04 1.734 2.04.272 0 .572-.04.901-.119.329-.08.63-.198.901-.357l.714 4.08c-.68.317-1.462.567-2.346.748-.884.181-1.711.272-2.482.272-1.564 0-2.765-.408-3.604-1.224-.839-.816-1.258-1.995-1.258-3.536V.18zm11.456 27.506c.454.159.879.272 1.275.34a6.4 6.4 0 001.071.102c.658 0 1.168-.227 1.53-.68.363-.453.692-1.27.986-2.448l-6.8-17.85h5.61l4.148 13.192 3.57-13.192h5.1l-6.8 20.74a7.106 7.106 0 01-2.55 3.587c-1.224.918-2.674 1.377-4.352 1.377a8.17 8.17 0 01-1.377-.119 7.516 7.516 0 01-1.41-.391v-4.658z"}));const y=r.header`
+`;var x=({color:t})=>e.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:"121",height:"33"},e.createElement("path",{fill:t,d:"M16.715 7.932c-.068-.09-.306-.26-.714-.51s-.918-.51-1.53-.782-1.281-.51-2.006-.714a8.005 8.005 0 00-2.176-.306c-1.995 0-2.992.669-2.992 2.006 0 .408.107.748.323 1.02.215.272.532.516.952.731.419.215.946.414 1.58.595l1.406.393.805.219c1.156.317 2.198.663 3.128 1.037.929.374 1.717.839 2.363 1.394a5.647 5.647 0 011.496 2.023c.35.793.527 1.745.527 2.856 0 1.36-.255 2.51-.765 3.451-.51.94-1.185 1.7-2.023 2.278-.84.578-1.802.997-2.89 1.258-1.088.26-2.21.391-3.366.391a19.68 19.68 0 01-5.44-.799c-.884-.26-1.74-.572-2.567-.935A14.358 14.358 0 01.53 22.28l2.448-4.862c.09.113.385.329.884.646.498.317 1.116.635 1.853.952.736.317 1.558.6 2.465.85.906.25 1.824.374 2.754.374 1.972 0 2.958-.6 2.958-1.802 0-.453-.148-.827-.442-1.122-.295-.295-.703-.561-1.224-.799a12.455 12.455 0 00-1.504-.56l-1.702-.495-.976-.288c-1.111-.34-2.074-.708-2.89-1.105-.816-.397-1.49-.856-2.023-1.377a5.003 5.003 0 01-1.19-1.802c-.261-.68-.391-1.473-.391-2.38 0-1.27.238-2.391.714-3.366a7.266 7.266 0 011.938-2.465 8.435 8.435 0 012.839-1.513c1.076-.34 2.215-.51 3.417-.51.838 0 1.666.08 2.482.238.816.159 1.598.363 2.346.612.748.25 1.445.533 2.09.85.647.317 1.242.635 1.786.952l-2.448 4.624zM40.139 25h-5.44V14.97c0-1.156-.227-2.006-.68-2.55-.454-.544-1.077-.816-1.87-.816-.318 0-.663.074-1.037.221a4.173 4.173 0 00-1.088.646 5.827 5.827 0 00-.97 1.003 4.4 4.4 0 00-.68 1.292V25h-5.44V.18h5.44v9.962a6.786 6.786 0 012.602-2.465c1.076-.578 2.26-.867 3.553-.867 1.201 0 2.17.21 2.907.629.736.42 1.303.952 1.7 1.598.396.646.663 1.371.799 2.176.136.805.204 1.592.204 2.363V25zm12.34.34c-1.519 0-2.873-.25-4.063-.748-1.19-.499-2.193-1.173-3.01-2.023a8.54 8.54 0 01-1.852-2.958 9.97 9.97 0 01-.63-3.519c0-1.224.21-2.397.63-3.519a8.54 8.54 0 011.853-2.958c.816-.85 1.819-1.53 3.009-2.04s2.544-.765 4.063-.765c1.519 0 2.867.255 4.046.765 1.179.51 2.176 1.19 2.992 2.04a8.754 8.754 0 011.87 2.958 9.736 9.736 0 01.646 3.519 9.97 9.97 0 01-.63 3.519 8.54 8.54 0 01-1.852 2.958c-.816.85-1.82 1.524-3.01 2.023-1.19.499-2.543.748-4.062.748zM48.5 16.092c0 1.405.374 2.533 1.122 3.383.748.85 1.7 1.275 2.856 1.275a3.59 3.59 0 001.564-.34c.476-.227.89-.544 1.24-.952a4.57 4.57 0 00.834-1.479 5.632 5.632 0 00.306-1.887c0-1.405-.374-2.533-1.122-3.383-.748-.85-1.689-1.275-2.822-1.275a3.702 3.702 0 00-2.84 1.292 4.57 4.57 0 00-.832 1.479 5.632 5.632 0 00-.306 1.887zm27.776-4.284c-1.315.023-2.505.238-3.57.646-1.065.408-1.836 1.02-2.312 1.836V25h-5.44V7.15h4.998v3.604c.612-1.201 1.4-2.142 2.363-2.822.963-.68 1.989-1.031 3.077-1.054h.544c.113 0 .227.011.34.034v4.896zm14.074 12.24a21.71 21.71 0 01-2.567.884c-.963.272-1.932.408-2.907.408-.68 0-1.32-.085-1.92-.255a4.286 4.286 0 01-1.582-.816c-.453-.374-.81-.867-1.07-1.479-.262-.612-.392-1.349-.392-2.21v-9.316h-2.278V7.15h2.278V1.472h5.44V7.15h3.638v4.114h-3.638v7.446c0 .59.147 1.014.442 1.275.295.26.669.391 1.122.391.408 0 .827-.068 1.258-.204.43-.136.805-.283 1.122-.442l1.054 4.318zM92.627.18h5.44v18.462c0 1.36.578 2.04 1.734 2.04.272 0 .572-.04.901-.119.329-.08.63-.198.901-.357l.714 4.08c-.68.317-1.462.567-2.346.748-.884.181-1.711.272-2.482.272-1.564 0-2.765-.408-3.604-1.224-.839-.816-1.258-1.995-1.258-3.536V.18zm11.456 27.506c.454.159.879.272 1.275.34a6.4 6.4 0 001.071.102c.658 0 1.168-.227 1.53-.68.363-.453.692-1.27.986-2.448l-6.8-17.85h5.61l4.148 13.192 3.57-13.192h5.1l-6.8 20.74a7.106 7.106 0 01-2.55 3.587c-1.224.918-2.674 1.377-4.352 1.377a8.17 8.17 0 01-1.377-.119 7.516 7.516 0 01-1.41-.391v-4.658z"}));const y=o.header`
     display:flex;
     align-items:center;
     margin:10px 30px;
@@ -21,7 +21,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
     @media (min-width:1250px){
         margin:10px 150px;
     }
-`,E=r.div`
+`,E=o.div`
     display:${t=>t.close?"none":"flex"};
     color:#f2f2f2;
     flex-direction: column;
@@ -41,7 +41,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
         bottom: 0;
         background:none;
     }
-`,k=r.div`
+`,k=o.div`
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +67,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
             color:hsl(257, 7%, 63%);
         }
     }
-`,d=r.button`
+`,d=o.button`
     width: 100%;
     border:none;
     outline:none;
@@ -84,7 +84,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
     &:hover{
         opacity:.7;
     }
-`,z=r.div`
+`,z=o.div`
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +110,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
         flex-direction: row;
     }
 
-`,S=r.button`
+`,S=o.button`
     border:none;
     outline:none;
     width:40px;
@@ -142,7 +142,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
     @media (min-width:762px){
         display:none;
     }
-`,C=({close:t,setClose:a})=>{const o=["Features","Pricing","Resources"];return e.createElement(y,null,e.createElement(u,{color:"#34313D"}),e.createElement(E,{close:t},e.createElement(k,null,o.map((s,n)=>e.createElement("p",{key:n},s))),e.createElement(z,null,e.createElement("p",null,"Login"),e.createElement(d,null,"Sign Up"))),e.createElement(S,{close:t,onClick:()=>a(!t)},e.createElement("span",null),e.createElement("span",null),e.createElement("span",null)))},j=r.div`
+`,C=({close:t,setClose:a})=>{const r=["Features","Pricing","Resources"];return e.createElement(y,null,e.createElement(x,{color:"#34313D"}),e.createElement(E,{close:t},e.createElement(k,null,r.map((s,n)=>e.createElement("p",{key:n},s))),e.createElement(z,null,e.createElement("p",null,"Login"),e.createElement(d,null,"Sign Up"))),e.createElement(S,{close:t,onClick:()=>a(!t)},e.createElement("span",null),e.createElement("span",null),e.createElement("span",null)))},j=o.div`
     img{
         width:100%;
         object-fit: cover;
@@ -170,7 +170,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
             width:700px;
         }
     }
-`,L=r.div`
+`,L=o.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,14 +213,14 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
             font-size:50px; 
         }
     }
-`,B=r.div`
+`,B=o.div`
     background:rgb(240,241,246);
     width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
     margin-top:170px;
-`,I=r.div`
+`,I=o.div`
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -249,7 +249,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
             top:calc(290px / 2);
         }
     }
-`,M=r.div`
+`,M=o.div`
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -289,7 +289,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
         }
         padding:80px 20px 20px 20px;
     }
-`,V=r.div`
+`,V=o.div`
     margin:40px 40px;
     text-align:center;
     h3{
@@ -307,7 +307,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
     }
     @media (min-width: 768px) {
     }
-`,F=r.div`
+`,F=o.div`
     background:#fff;
     width:300px;
     padding:20px;
@@ -369,7 +369,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
             align-items: center;
         }
     }
-`,$=r.div`
+`,$=o.div`
     margin:30px 0;
     @media (min-width: 762px) {
         width: calc(100% - 260px);
@@ -377,7 +377,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
         flex-direction: column;
         align-items: center;
     }
-`;var A="/url-shortening-api-master-dani7ug/assets/illustration-working.fae884c2.svg",P=[{id:1,img:"../public/icon-brand-recognition.svg",title:"Brand Recognition",text:"Boost your brand recognition with each click. Generic links don\u2019t mean a thing. Branded links help instil confidence in your content."},{id:2,img:"../public/icon-detailed-records.svg",title:"Detailed Records",text:"Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."},{id:3,img:"../public/icon-fully-customizable.svg",title:"Fully Customizable",text:"  Improve brand awareness and content discoverability through customizablelinks, supercharging audience engagement."}],R="/url-shortening-api-master-dani7ug/assets/bg-shorten-mobile.53ca2a05.svg",U="/url-shortening-api-master-dani7ug/assets/bg-shorten-desktop.d119628f.svg";const D=r.form`
+`;var A="/assets/illustration-working.fae884c2.svg",P=[{id:1,img:"../public/icon-brand-recognition.svg",title:"Brand Recognition",text:"Boost your brand recognition with each click. Generic links don\u2019t mean a thing. Branded links help instil confidence in your content."},{id:2,img:"../public/icon-detailed-records.svg",title:"Detailed Records",text:"Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."},{id:3,img:"../public/icon-fully-customizable.svg",title:"Fully Customizable",text:"  Improve brand awareness and content discoverability through customizablelinks, supercharging audience engagement."}],R="/assets/bg-shorten-mobile.53ca2a05.svg",U="/assets/bg-shorten-desktop.d119628f.svg";const D=o.form`
     width: calc(100% - 100px);
     padding:30px;
     background: hsl(257, 27%, 26%) url(${R}) no-repeat;
@@ -450,7 +450,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
     @media (min-width:1020){
         max-width: calc(100% - 380px);
     }
-`,T=({shortsUrls:t,setShortsUrls:a})=>{const o=p.exports.useRef(null),[s,n]=p.exports.useState(!1),i=async l=>{l.preventDefault();const c=o.current.value;if(!c)return n(!0);try{const x=(await(await fetch(`https://api.shrtco.de/v2/shorten?url=${c}`)).json()).result.full_short_link;a([...t,{url:c,shortUrl:x}]),n(!1)}catch{n(!0)}o.current.value=""};return e.createElement(D,{empty:s,onSubmit:i},e.createElement("div",null,e.createElement("input",{ref:o,type:"text",placeholder:"Shorten a link here..."}),s&&e.createElement("p",null,"Please add a link")),e.createElement(d,null,"Shorten It!"))},G=({shortsUrls:t,setShortsUrls:a})=>{const[o,s]=p.exports.useState(null),n=(i,l)=>{navigator.clipboard.writeText(l),s(i)};return e.createElement("main",null,e.createElement(j,null,e.createElement("img",{src:A,alt:""}),e.createElement(L,null,e.createElement("h1",null,"More Than just shorter links"),e.createElement("p",null,"Build your brand\u2019s recognition and get detailed insights on how your links are performing."),e.createElement(d,null,"Get Started"))),e.createElement(B,null,e.createElement(T,{shortsUrls:t,setShortsUrls:a}),e.createElement($,null,t.map((i,l)=>e.createElement(F,{key:l,copied:o==l&&o!==null?"true":"false"},e.createElement("div",null,e.createElement("p",null,i.url)),e.createElement("div",null,e.createElement("b",null,i.shortUrl),e.createElement(d,{onClick:()=>n(l,i.shortUrl)},o==l&&o!==null?"Copied!":"Copy"))))),e.createElement(V,null,e.createElement("h3",null,"Advanced Statistics"),e.createElement("p",null,"Track how your links are performing across the web with our advanced statistics dashboard.")),e.createElement(I,null,P.map(({id:i,img:l,title:c,text:g})=>e.createElement(M,{key:i},e.createElement("img",{src:l,alt:""}),e.createElement("b",null,c),e.createElement("p",null,g))))))};var O="/url-shortening-api-master-dani7ug/assets/bg-boost-mobile.683c4474.svg",H="/url-shortening-api-master-dani7ug/assets/bg-boost-desktop.05593952.svg";const N=r.footer`
+`,T=({shortsUrls:t,setShortsUrls:a})=>{const r=p.exports.useRef(null),[s,n]=p.exports.useState(!1),i=async l=>{l.preventDefault();const c=r.current.value;if(!c)return n(!0);try{const u=(await(await fetch(`https://api.shrtco.de/v2/shorten?url=${c}`)).json()).result.full_short_link;a([...t,{url:c,shortUrl:u}]),n(!1)}catch{n(!0)}r.current.value=""};return e.createElement(D,{empty:s,onSubmit:i},e.createElement("div",null,e.createElement("input",{ref:r,type:"text",placeholder:"Shorten a link here..."}),s&&e.createElement("p",null,"Please add a link")),e.createElement(d,null,"Shorten It!"))},G=({shortsUrls:t,setShortsUrls:a})=>{const[r,s]=p.exports.useState(null),n=(i,l)=>{navigator.clipboard.writeText(l),s(i)};return e.createElement("main",null,e.createElement(j,null,e.createElement("img",{src:A,alt:""}),e.createElement(L,null,e.createElement("h1",null,"More Than just shorter links"),e.createElement("p",null,"Build your brand\u2019s recognition and get detailed insights on how your links are performing."),e.createElement(d,null,"Get Started"))),e.createElement(B,null,e.createElement(T,{shortsUrls:t,setShortsUrls:a}),e.createElement($,null,t.map((i,l)=>e.createElement(F,{key:l,copied:r==l&&r!==null?"true":"false"},e.createElement("div",null,e.createElement("p",null,i.url)),e.createElement("div",null,e.createElement("b",null,i.shortUrl),e.createElement(d,{onClick:()=>n(l,i.shortUrl)},r==l&&r!==null?"Copied!":"Copy"))))),e.createElement(V,null,e.createElement("h3",null,"Advanced Statistics"),e.createElement("p",null,"Track how your links are performing across the web with our advanced statistics dashboard.")),e.createElement(I,null,P.map(({id:i,img:l,title:c,text:g})=>e.createElement(M,{key:i},e.createElement("img",{src:l,alt:""}),e.createElement("b",null,c),e.createElement("p",null,g))))))};var O="/assets/bg-boost-mobile.683c4474.svg",H="/assets/bg-boost-desktop.05593952.svg";const N=o.footer`
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -478,7 +478,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
             margin-right: 0px;
         }
     }
-`,Y=r.div`
+`,Y=o.div`
     text-align: center;
     margin:20px 0;
     b{
@@ -501,7 +501,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
         margin:0;
         text-align: start;
     }
-`,K=r.div`
+`,K=o.div`
     margin-top:20px;
     img{
         margin:0 20px;
@@ -510,7 +510,7 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
     @media (min-width:762px){
         margin:0;
     }
-`,W=r.div`
+`,W=o.div`
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -531,4 +531,4 @@ import{W as h,R as e,s as r,C as f,r as p,a as b}from"./vendor.8fe9410d.js";cons
             font-size:30px;
         }
     }
-`,_=()=>e.createElement(W,null,e.createElement("h2",null,"Boots your links today"),e.createElement(d,null,"Get Started")),m=({title:t,arr:a})=>e.createElement(Y,null,e.createElement("b",null,t),e.createElement("div",null,a.map((o,s)=>e.createElement("p",{key:s},o))));var q="/url-shortening-api-master-dani7ug/assets/icon-facebook.1250d8fd.svg",J="/url-shortening-api-master-dani7ug/assets/icon-twitter.2da5de02.svg",Q="/url-shortening-api-master-dani7ug/assets/icon-pinterest.44129f48.svg",X="/url-shortening-api-master-dani7ug/assets/icon-instagram.7a970678.svg";const Z=()=>e.createElement(N,null,e.createElement(u,{color:"#fefefe"}),e.createElement(m,{title:"Features",arr:["Link Shortening","Branded Links","Analytics"]}),e.createElement(m,{title:"Resources",arr:["Blog","Developers","Support"]}),e.createElement(m,{title:"Company",arr:["About","Our Team","Careers","Contact"]}),e.createElement(K,null,[q,J,Q,X].map((t,a)=>e.createElement("img",{src:t,alt:"",key:a}))));function ee(){const[t,a]=p.exports.useState(!0),[o,s]=p.exports.useState([]);return e.createElement(e.Fragment,null,e.createElement(v,null),e.createElement(C,{close:t,setClose:a}),e.createElement(G,{shortsUrls:o,setShortsUrls:s}),e.createElement(_,null),e.createElement(Z,null))}b.render(e.createElement(e.StrictMode,null,e.createElement(ee,null)),document.getElementById("root"));
+`,_=()=>e.createElement(W,null,e.createElement("h2",null,"Boots your links today"),e.createElement(d,null,"Get Started")),m=({title:t,arr:a})=>e.createElement(Y,null,e.createElement("b",null,t),e.createElement("div",null,a.map((r,s)=>e.createElement("p",{key:s},r))));var q="/assets/icon-facebook.1250d8fd.svg",J="/assets/icon-twitter.2da5de02.svg",Q="/assets/icon-pinterest.44129f48.svg",X="/assets/icon-instagram.7a970678.svg";const Z=()=>e.createElement(N,null,e.createElement(x,{color:"#fefefe"}),e.createElement(m,{title:"Features",arr:["Link Shortening","Branded Links","Analytics"]}),e.createElement(m,{title:"Resources",arr:["Blog","Developers","Support"]}),e.createElement(m,{title:"Company",arr:["About","Our Team","Careers","Contact"]}),e.createElement(K,null,[q,J,Q,X].map((t,a)=>e.createElement("img",{src:t,alt:"",key:a}))));function ee(){const[t,a]=p.exports.useState(!0),[r,s]=p.exports.useState([]);return e.createElement(e.Fragment,null,e.createElement(v,null),e.createElement(C,{close:t,setClose:a}),e.createElement(G,{shortsUrls:r,setShortsUrls:s}),e.createElement(_,null),e.createElement(Z,null))}b.render(e.createElement(e.StrictMode,null,e.createElement(ee,null)),document.getElementById("root"));
